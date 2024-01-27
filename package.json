@@ -1,0 +1,24 @@
+{
+  "name": "pekodon-run-server",
+  "version": "1.0.0",
+  "description": "PalWorldサーバーを起動するDiscord Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tighug/pekodon-run-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tighug/pekodon-run-server/issues"
+  },
+  "homepage": "https://github.com/tighug/pekodon-run-server#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.1"
+  }
+}
